@@ -1,0 +1,42 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+config/database.yml
+config/*.sphinx.conf
+config/s3_credentials.yml
+*~
+*.cache
+*.log
+*.pid
+tmp/**/*
+.DS_Store
+db/cstore/**
+db/sphinx/**
+doc/api
+doc/app
+doc/plugins
+doc/*.dot
+coverage/*
+db/*.sqlite3
+*.tmproj
+*.sw?
+hpricot/
+public/rcov
+
+#do not commit eclipse stuff
+.metadata/
+.idea/
+.project
+
+*.csv
+#do not commit code coverage stuff
+coverage/
+coverage.data
+
+/Files/*
+#do not commit netbeans stuff
+nbproject/
+
+*.csv
+/test/public/profile/*.zip
