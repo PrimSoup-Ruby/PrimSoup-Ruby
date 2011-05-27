@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Dmgpoints:</b>
+  <%= @amoeba.dmgpoints %>
+</p>
+
+<p>
+  <b>Player:</b>
+  <%= @amoeba.player %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @amoeba.position %>
+</p>
+
+
+<%= link_to 'Edit', edit_amoeba_path(@amoeba) %> |
+<%= link_to 'Back', amoebas_path %>

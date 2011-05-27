@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  dmgpoints: 1
+  player: 
+  position: 
+
+two:
+  dmgpoints: 1
+  player: 
+  position: 

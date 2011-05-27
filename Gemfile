@@ -19,6 +19,7 @@ gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'haml'
 gem 'sass' # smart css files
+gem 'devise'
 
 # Bundle the extra gems:
 # gem 'bj'
